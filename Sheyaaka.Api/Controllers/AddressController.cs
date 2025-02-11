@@ -145,7 +145,7 @@ namespace Sheyaaka.API.Controllers
         [HttpGet("{storeId}")]
         [ProducesResponseType(typeof(IEnumerable<AddressOutputDto>), 200)]
         [ProducesResponseType(typeof(object), 404)]
-        public async Task<IActionResult> GetStores(int storeId)
+        public async Task<IActionResult> GetStoreAddresses(int storeId)
         {
             var userId = GetUserIdFromClaims();
 
