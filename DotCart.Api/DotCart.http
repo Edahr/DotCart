@@ -1,0 +1,6 @@
+@DotCart_HostAddress = http://localhost:5102
+
+GET {{DotCart_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

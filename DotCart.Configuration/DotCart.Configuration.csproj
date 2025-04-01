@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore" Version="2.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+		<PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DotCart.BLL\DotCart.BLL.csproj" />
+		<ProjectReference Include="..\DotCart.Common\DotCart.Common.csproj" />
+		<ProjectReference Include="..\DotCart.DAL\DotCart.DAL.csproj" />
+		<ProjectReference Include="..\DotCart.Data\DotCart.Data.csproj" />
+		<ProjectReference Include="..\DotCart.Infrastructure\DotCart.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>
