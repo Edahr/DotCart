@@ -1,10 +1,10 @@
-# Sheyaaka
+# DotCart
 
 ## Description
 
 This API provides a set of endpoints for managing brands, stores, and related functionalities such as product management, user authentication, and address handling. It allows users to perform CRUD operations on brands, stores, and manage store addresses and products. The application also features user registration, login, email confirmation, and password management.
 
-### Bonus Points: 
+### Notes: 
 1. **In-memory caching** was used in the solution for the Brands and Products controllers.
 2. **JWT IP token binding** was implemented, with a custom middleware added to validate incoming requests.
 3. **Swagger** was used to document the application.
